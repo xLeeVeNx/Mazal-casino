@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/main.min.css">
+
+  <title>Mazal24</title>
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__top header__top--account header__top--withdraw">
+        <a class="logo" href="account.html">
+          <img class="logo__image" src="images/logo.png" alt="Логотип">
+        </a>
+
+        <nav class="nav">
+          <img class="nav__burger" src="images/burger.svg" alt="">
+
+          <div class="nav__cabinet">
+            <div class="nav__cabinet-balance">Your balance is <span>105 $</span></div>
+            <div class="nav__cabinet-box">
+              <div class="nav__cabinet-user">Username777</div>
+              <a class="nav__cabinet-logout" href="index.html">logout</a>
+            </div>
+          </div>
+
+          <ul class="nav__list nav__list--account">
+            <li class="nav__item">
+              <a class="nav__link" href="withdraws.html">Witdraws</a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="deposit.html">Deposits</a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="why.html">Why play with us?</a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="https://api.whatsapp.com/send?phone=380965889343&text=שלום" target="_blank">Contact us</a>
+            </li>
+          </ul>
+
+          <div class="nav__auth">
+            <a class="nav__auth-item" href="withdraw.html">withdraw</a>
+            <a class="nav__auth-item" href="deposite.html">DEPOSIT</a>
+          </div>
+
+          <div class="nav__lang">
+            <a class="nav__lang-item" href="deposite.html">En</a>
+            <a class="nav__lang-item" href="deposite-he.html">He</a>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="deposite">
+      <div class="container">
+        <div class="deposite__content">
+          <div class="deposite__left">
+            <h2 class="deposite__title">Cashier</h2>
+            <div class="deposite__subtitle">Deposite Bitcoin</div>
+          </div>
+          <div class="deposite__right">
+            <img src="images/deposite-bg.png" alt="">
+          </div>
+        </div>
+
+        <div class="deposite-tabs__inner">
+          <div class="deposite-tabs__items">
+            <a class="deposite-tabs__item deposite-tabs__item--bitcoin deposite-tabs__item--active" href="#tab--1">
+              <p class="deposite-tabs__item-text">Deposite</p>
+              <p class="deposite-tabs__item-text">bitcoin</p>
+            </a>
+
+            <a class="deposite-tabs__item deposite-tabs__item--bank" href="#tab--2">
+              <p class="deposite-tabs__item-text">Bank</p>
+              <p class="deposite-tabs__item-text">PAYMENT</p>
+            </a>
+
+            <a class="deposite-tabs__item deposite-tabs__item--gift" href="#tab--3">
+              <p class="deposite-tabs__item-text">GIFT</p>
+              <p class="deposite-tabs__item-text">PAYMENT</p>
+            </a>
+
+            <a class="deposite-tabs__item deposite-tabs__item--more" href="#tab--4">
+              <div class="deposite-tabs__item-more">More Options</div>
+            </a>
+          </div>
+
+          <div class="deposite-tabs__content">
+            <div class="deposite-tabs__content-item deposite-tabs__content-item--active" id="tab--1">
+              <form class="deposite-tabs__content-form" action="#">
+                <div class="deposite-tabs__content-inner">
+                  <div class="deposite-tabs__content-box deposite-tabs__content-box--wallet">
+                    <label class="deposite-tabs__content-label">
+                      Amount (USD)
+                      <input class="deposite-tabs__content-input" type="number" value="100">
+                    </label>
+
+                    <img class="deposite-tabs__content-image" src="images/qr.png" alt="QR-code">
+                  </div>
+
+                  <div class="deposite-tabs__content-box">
+                    <div class="deposite-tabs__content-info">
+                      <ol class="deposite-tabs__content-list">
+                        <li class="deposite-tabs__content-li">Type the amount</li>
+                        <li class="deposite-tabs__content-li">Press the button below</li>
+                        <li class="deposite-tabs__content-li">Copy the address bar in full</li>
+                        <li class="deposite-tabs__content-li">Paste the address bar into your wallet</li>
+                        <li class="deposite-tabs__content-li">Send the amount out of your wallet</li>
+                        <li class="deposite-tabs__content-li">Return to royalty and click finish</li>
+                        <li class="deposite-tabs__content-li">
+                          Note that it takes time for the balance to catch up. It
+                          depends on the marble load on the blockchain. We get the money after 6 certificates of the
+                          network.
+                        </li>
+                      </ol>
+
+                      <p class="deposite-tabs__content-advice">
+                        * Please note! The lower the amount will take him more time to catch up
+                      </p>
+                    </div>
+
+                    <div class="deposite-tabs__content-copy">
+                      <input class="deposite-tabs__content-hash" type="text"
+                        value="bitcoin:37aLxsnaB1eft9RwTUBya5Q9j3fF6UD9xN?amount=0.0009171" readonly>
+
+                      <button class="deposite-tabs__content-button" type="button">
+                        <img class="deposite-tabs__content-img" src="images/copy.svg" alt="Copy image">
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <button class="deposite-tabs__content-btn" type="submit">SEND</button>
+              </form>
+
+              <table class="deposite-tabs__content-table">
+                <tbody>
+                  <tr class="deposite-tabs__content-tr">
+                    <td class="deposite-tabs__content-td">Request date</td>
+                    <td class="deposite-tabs__content-td">Amount</td>
+                    <td class="deposite-tabs__content-td">Payment system</td>
+                    <td class="deposite-tabs__content-td">Status</td>
+                  </tr>
+
+                  <tr class="deposite-tabs__content-tr">
+                    <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                    <td class="deposite-tabs__content-td">33.00</td>
+                    <td class="deposite-tabs__content-td">BitCoin</td>
+                    <td class="deposite-tabs__content-td">Success</td>
+                  </tr>
+
+                  <tr class="deposite-tabs__content-tr">
+                    <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                    <td class="deposite-tabs__content-td">33.00</td>
+                    <td class="deposite-tabs__content-td">Card</td>
+                    <td class="deposite-tabs__content-td">Not Finished</td>
+                  </tr>
+
+                  <tr class="deposite-tabs__content-tr">
+                    <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                    <td class="deposite-tabs__content-td">33.00</td>
+                    <td class="deposite-tabs__content-td">Gift</td>
+                    <td class="deposite-tabs__content-td">Success</td>
+                  </tr>
+
+                  <tr class="deposite-tabs__content-tr">
+                    <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                    <td class="deposite-tabs__content-td">33.00</td>
+                    <td class="deposite-tabs__content-td">BitCoin</td>
+                    <td class="deposite-tabs__content-td">Not Finished</td>
+                  </tr>
+
+                  <tr class="deposite-tabs__content-tr">
+                    <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                    <td class="deposite-tabs__content-td">33.00</td>
+                    <td class="deposite-tabs__content-td">Card</td>
+                    <td class="deposite-tabs__content-td">Not Finished</td>
+                  </tr>
+
+                  <tr class="deposite-tabs__content-tr">
+                    <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                    <td class="deposite-tabs__content-td">33.00</td>
+                    <td class="deposite-tabs__content-td">Gift</td>
+                    <td class="deposite-tabs__content-td">Success</td>
+                  </tr>
+
+                  <tr class="deposite-tabs__content-tr">
+                    <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                    <td class="deposite-tabs__content-td">33.00</td>
+                    <td class="deposite-tabs__content-td">BitCoin</td>
+                    <td class="deposite-tabs__content-td">Not Finished</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="deposite-tabs__content-item" id="tab--2">
+              <form class="deposite-tabs__content-form" action="#">
+                <div class="deposite-tabs__content-inner">
+                  <div
+                    class="deposite-tabs__content-box deposite-tabs__content-box--wallet deposite-tabs__content-box--bank">
+                    <label class="deposite-tabs__content-label">
+                      Amount (USD)
+                      <input class="deposite-tabs__content-input" type="number" value="100">
+                    </label>
+
+                    <label class="deposite-tabs__content-label">
+                      DoB
+                      <input class="deposite-tabs__content-input" type="number" value="12121313">
+                    </label>
+                  </div>
+
+                  <div class="deposite-tabs__content-box deposite-tabs__content-box--walle">
+                    <label class="deposite-tabs__content-label">
+                      Bank Code*
+                      <input class="deposite-tabs__content-input" type="number" value="112156468489">
+                    </label>
+
+                    <label class="deposite-tabs__content-label">
+                      Upload Bank confirm
+                    </label>
+
+                    <label class="deposite-tabs__content-lb">
+                      File
+                      <input class="deposite-tabs__content-file" type="file" name="file">
+                    </label>
+                  </div>
+
+                  <div class="deposite-tabs__content-box">
+                    <div class="deposite-tabs__content-info deposite-tabs__content-info--bank">
+                      <ul class="deposite-tabs__content-list">
+                        <li class="deposite-tabs__content-li">bank howto 1</li>
+                        <li class="deposite-tabs__content-li">bank howto 2</li>
+                        <li class="deposite-tabs__content-li">bank howto 3</li>
+                        <li class="deposite-tabs__content-li">Text Bank</li>
+                        <li class="deposite-tabs__content-li">Text Bank</li>
+                        <li class="deposite-tabs__content-li">Text Bank</li>
+                        <li class="deposite-tabs__content-li">Text Bank</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <button class="deposite-tabs__content-btn deposite-tabs__content-btn--bank" type="submit">SEND</button>
+              </form>
+
+              <table class="deposite-tabs__content-table">
+                <tbody>
+                  <tr class="deposite-tabs__content-tr">
+                    <td class="deposite-tabs__content-td">Request date</td>
+                    <td class="deposite-tabs__content-td">Amount</td>
+                    <td class="deposite-tabs__content-td">Payment system</td>
+                    <td class="deposite-tabs__content-td">Status</td>
+                  </tr>
+
+                  <tr class="deposite-tabs__content-tr">
+                    <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                    <td class="deposite-tabs__content-td">33.00</td>
+                    <td class="deposite-tabs__content-td">BitCoin</td>
+                    <td class="deposite-tabs__content-td">Success</td>
+                  </tr>
+
+                  <tr class="deposite-tabs__content-tr">
+                    <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                    <td class="deposite-tabs__content-td">33.00</td>
+                    <td class="deposite-tabs__content-td">Card</td>
+                    <td class="deposite-tabs__content-td">Not Finished</td>
+                  </tr>
+
+                  <tr class="deposite-tabs__content-tr">
+                    <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                    <td class="deposite-tabs__content-td">33.00</td>
+                    <td class="deposite-tabs__content-td">Gift</td>
+                    <td class="deposite-tabs__content-td">Success</td>
+                  </tr>
+
+                  <tr class="deposite-tabs__content-tr">
+                    <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                    <td class="deposite-tabs__content-td">33.00</td>
+                    <td class="deposite-tabs__content-td">BitCoin</td>
+                    <td class="deposite-tabs__content-td">Not Finished</td>
+                  </tr>
+
+                  <tr class="deposite-tabs__content-tr">
+                    <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                    <td class="deposite-tabs__content-td">33.00</td>
+                    <td class="deposite-tabs__content-td">Card</td>
+                    <td class="deposite-tabs__content-td">Not Finished</td>
+                  </tr>
+
+                  <tr class="deposite-tabs__content-tr">
+                    <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                    <td class="deposite-tabs__content-td">33.00</td>
+                    <td class="deposite-tabs__content-td">Gift</td>
+                    <td class="deposite-tabs__content-td">Success</td>
+                  </tr>
+
+                  <tr class="deposite-tabs__content-tr">
+                    <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                    <td class="deposite-tabs__content-td">33.00</td>
+                    <td class="deposite-tabs__content-td">BitCoin</td>
+                    <td class="deposite-tabs__content-td">Not Finished</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="deposite-tabs__content-item" id="tab--3">
+              <form class="deposite-tabs__content-form" action="#">
+                <div class="deposite-tabs__content-inner">
+                  <div class="deposite-tabs__content-box deposite-tabs__content-box--gift">
+                    <label class="deposite-tabs__content-label">
+                      Claim Code
+                      <input class="deposite-tabs__content-input" type="number" value="132214564654">
+                    </label>
+                  </div>
+
+                  <div class="deposite-tabs__content-info deposite-tabs__content-info--gift">
+                    <p>
+                      Dear customer, you can purchase a gippt KARD at this link, any gippt there is on the page. After
+                      the purchase you will receive to your phone number the text code, after that you must return to
+                      this page and enter the code as it is registered in the message you received to the phone and
+                      click send!
+                    </p>
+                  </div>
+                </div>
+
+                <button class="deposite-tabs__content-btn deposite-tabs__content-btn--gift" type="submit">SEND</button>
+              </form>
+
+              <table class="deposite-tabs__content-table">
+                <tbody>
+                  <tr class="deposite-tabs__content-tr">
+                    <td class="deposite-tabs__content-td">Request date</td>
+                    <td class="deposite-tabs__content-td">Amount</td>
+                    <td class="deposite-tabs__content-td">Payment system</td>
+                    <td class="deposite-tabs__content-td">Status</td>
+                  </tr>
+
+                  <tr class="deposite-tabs__content-tr">
+                    <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                    <td class="deposite-tabs__content-td">33.00</td>
+                    <td class="deposite-tabs__content-td">BitCoin</td>
+                    <td class="deposite-tabs__content-td">Success</td>
+                  </tr>
+
+                  <tr class="deposite-tabs__content-tr">
+                    <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                    <td class="deposite-tabs__content-td">33.00</td>
+                    <td class="deposite-tabs__content-td">Card</td>
+                    <td class="deposite-tabs__content-td">Not Finished</td>
+                  </tr>
+
+                  <tr class="deposite-tabs__content-tr">
+                    <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                    <td class="deposite-tabs__content-td">33.00</td>
+                    <td class="deposite-tabs__content-td">Gift</td>
+                    <td class="deposite-tabs__content-td">Success</td>
+                  </tr>
+
+                  <tr class="deposite-tabs__content-tr">
+                    <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                    <td class="deposite-tabs__content-td">33.00</td>
+                    <td class="deposite-tabs__content-td">BitCoin</td>
+                    <td class="deposite-tabs__content-td">Not Finished</td>
+                  </tr>
+
+                  <tr class="deposite-tabs__content-tr">
+                    <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                    <td class="deposite-tabs__content-td">33.00</td>
+                    <td class="deposite-tabs__content-td">Card</td>
+                    <td class="deposite-tabs__content-td">Not Finished</td>
+                  </tr>
+
+                  <tr class="deposite-tabs__content-tr">
+                    <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                    <td class="deposite-tabs__content-td">33.00</td>
+                    <td class="deposite-tabs__content-td">Gift</td>
+                    <td class="deposite-tabs__content-td">Success</td>
+                  </tr>
+
+                  <tr class="deposite-tabs__content-tr">
+                    <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                    <td class="deposite-tabs__content-td">33.00</td>
+                    <td class="deposite-tabs__content-td">BitCoin</td>
+                    <td class="deposite-tabs__content-td">Not Finished</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="deposite-tabs__content-item" id="tab--4">
+              <div class="deposite-tabs__content-inner">
+
+
+                <table class="deposite-tabs__content-table">
+                  <tbody>
+                    <tr class="deposite-tabs__content-tr">
+                      <td class="deposite-tabs__content-td">Request date</td>
+                      <td class="deposite-tabs__content-td">Amount</td>
+                      <td class="deposite-tabs__content-td">Payment system</td>
+                      <td class="deposite-tabs__content-td">Status</td>
+                    </tr>
+
+                    <tr class="deposite-tabs__content-tr">
+                      <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                      <td class="deposite-tabs__content-td">33.00</td>
+                      <td class="deposite-tabs__content-td">BitCoin</td>
+                      <td class="deposite-tabs__content-td">Success</td>
+                    </tr>
+
+                    <tr class="deposite-tabs__content-tr">
+                      <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                      <td class="deposite-tabs__content-td">33.00</td>
+                      <td class="deposite-tabs__content-td">Card</td>
+                      <td class="deposite-tabs__content-td">Not Finished</td>
+                    </tr>
+
+                    <tr class="deposite-tabs__content-tr">
+                      <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                      <td class="deposite-tabs__content-td">33.00</td>
+                      <td class="deposite-tabs__content-td">Gift</td>
+                      <td class="deposite-tabs__content-td">Success</td>
+                    </tr>
+
+                    <tr class="deposite-tabs__content-tr">
+                      <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                      <td class="deposite-tabs__content-td">33.00</td>
+                      <td class="deposite-tabs__content-td">BitCoin</td>
+                      <td class="deposite-tabs__content-td">Not Finished</td>
+                    </tr>
+
+                    <tr class="deposite-tabs__content-tr">
+                      <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                      <td class="deposite-tabs__content-td">33.00</td>
+                      <td class="deposite-tabs__content-td">Card</td>
+                      <td class="deposite-tabs__content-td">Not Finished</td>
+                    </tr>
+
+                    <tr class="deposite-tabs__content-tr">
+                      <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                      <td class="deposite-tabs__content-td">33.00</td>
+                      <td class="deposite-tabs__content-td">Gift</td>
+                      <td class="deposite-tabs__content-td">Success</td>
+                    </tr>
+
+                    <tr class="deposite-tabs__content-tr">
+                      <td class="deposite-tabs__content-td">21 Jan 2021</td>
+                      <td class="deposite-tabs__content-td">33.00</td>
+                      <td class="deposite-tabs__content-td">BitCoin</td>
+                      <td class="deposite-tabs__content-td">Not Finished</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <a class="arrow-up" href="#">
+            <img class="arrow-up__image" src="images/up.svg" alt="">
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a class="logo logo--footer" href="account.html">
+          <img class="logo__image" src="images/logo.png" alt="Логотип">
+        </a>
+
+        <ul class="footer__menu">
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="withdraws.html">Witdraws</a>
+          </li>
+
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="deposit.html">Deposits</a>
+          </li>
+
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="why.html">Why play with us?</a>
+          </li>
+
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="https://api.whatsapp.com/send?phone=380965889343&text=שלום"
+              target="_blank">Contact us</a>
+          </li>
+        </ul>
+
+        <p class="footer__copy">
+          © 2021 Mazal 24/7 all rights reserved
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.min.js"></script>
+  <script src="js/index.js" type="module"></script>
+  <script src="https://kit.fontawesome.com/2bc81603be.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

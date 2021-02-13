@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/main.min.css">
+
+  <title>Mazal24</title>
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__top header__top--account header__top--withdraw">
+        <a class="logo" href="account.html">
+          <img class="logo__image" src="images/logo.png" alt="Логотип">
+        </a>
+
+        <nav class="nav">
+          <img class="nav__burger" src="images/burger.svg" alt="">
+
+          <div class="nav__cabinet">
+            <div class="nav__cabinet-balance">Your balance is <span>105 $</span></div>
+            <div class="nav__cabinet-box">
+              <div class="nav__cabinet-user">Username777</div>
+              <a class="nav__cabinet-logout" href="index.html">logout</a>
+            </div>
+          </div>
+
+          <ul class="nav__list nav__list--account">
+            <li class="nav__item">
+              <a class="nav__link" href="withdraws.html">Witdraws</a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="deposit.html">Deposits</a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="why.html">Why play with us?</a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="https://api.whatsapp.com/send?phone=380965889343&text=שלום"
+                target="_blank">Contact us</a>
+            </li>
+          </ul>
+
+          <div class="nav__auth">
+            <a class="nav__auth-item" href="withdraw.html">withdraw</a>
+            <a class="nav__auth-item" href="deposite.html">DEPOSIT</a>
+          </div>
+
+          <div class="nav__lang">
+            <a class="nav__lang-item" href="withdraw.html">En</a>
+            <a class="nav__lang-item" href="withdraw-he.html">He</a>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="withdraw">
+      <div class="container">
+        <div class="withdraw__content">
+          <div class="withdraw__left">
+            <h2 class="withdraw__title">Withdraws</h2>
+            <div class="withdraw__subtitle">money with bcards</div>
+          </div>
+          <div class="withdraw__right">
+            <img src="images/withdraw.png" alt="">
+          </div>
+        </div>
+
+        <div class="withdraw-tabs__inner">
+          <div class="withdraw-tabs__items">
+            <a class="withdraw-tabs__item withdraw-tabs__item--bcard withdraw-tabs__item--active" href="#tab1">
+              <p class="withdraw-tabs__item-text">withdraw MOney</p>
+              <p class="withdraw-tabs__item-text">with bcards</p>
+            </a>
+
+            <a class="withdraw-tabs__item withdraw-tabs__item--bitcoin" href="#tab2">
+              <p class="withdraw-tabs__item-text">withdraw MOney</p>
+              <p class="withdraw-tabs__item-text">with bitcoin</p>
+            </a>
+
+            <a class="withdraw-tabs__item withdraw-tabs__item--more" href="#tab3">
+              <div class="withdraw-tabs__item-more">More Options</div>
+            </a>
+          </div>
+
+          <div class="withdraw-tabs__content">
+            <div class="withdraw-tabs__content-item withdraw-tabs__content-item--active" id="tab1">
+              <div class="withdraw-tabs__content-inner">
+                <form class="withdraw-tabs__content-form" action="#">
+                  <div class="withdraw-tabs__content-wrap">
+                    <div class="withdraw-tabs__content-box withdraw-tabs__content-box--money">
+                      <label class="withdraw-tabs__content-label">
+                        Amount (USD)
+                        <input class="withdraw-tabs__content-input" type="number" value="100">
+                      </label>
+                    </div>
+
+                    <div class="withdraw-tabs__content-box withdraw-tabs__content-box--wallet">
+                      <label class="withdraw-tabs__content-label">
+                        Your Bcard Card
+                        <input class="withdraw-tabs__content-input" type="number" value="100">
+                      </label>
+                    </div>
+                  </div>
+
+                  <button class="withdraw-tabs__content-btn" type="submit">SEND</button>
+                </form>
+
+                <div class="withdraw-tabs__content-info">
+                  <ul class="withdraw-tabs__content-list">
+                    <li class="withdraw-tabs__content-li">bcard 1</li>
+                    <li class="withdraw-tabs__content-li">bcard 2</li>
+                    <li class="withdraw-tabs__content-li">bcard 3</li>
+                    <li class="withdraw-tabs__content-li">bcard 4</li>
+                    <li class="withdraw-tabs__content-li">bcard 5</li>
+                    <li class="withdraw-tabs__content-li">bcard 6</li>
+                    <li class="withdraw-tabs__content-li">bcard 7</li>
+                    <li class="withdraw-tabs__content-li">bcard 8</li>
+                    <li class="withdraw-tabs__content-li">bcard 9</li>
+                    <li class="withdraw-tabs__content-li">bcard 10</li>
+                  </ul>
+                </div>
+
+
+              </div>
+
+              <table class="withdraw-tabs__content-table">
+                <tbody>
+                  <tr class="withdraw-tabs__content-tr">
+                    <td class="withdraw-tabs__content-td">Request date</td>
+                    <td class="withdraw-tabs__content-td">Amount</td>
+                    <td class="withdraw-tabs__content-td">Payment system</td>
+                    <td class="withdraw-tabs__content-td">Status</td>
+                  </tr>
+
+                  <tr class="withdraw-tabs__content-tr">
+                    <td class="withdraw-tabs__content-td">21 Jan 2021</td>
+                    <td class="withdraw-tabs__content-td">33.00</td>
+                    <td class="withdraw-tabs__content-td">BitCoin</td>
+                    <td class="withdraw-tabs__content-td">Success</td>
+                  </tr>
+
+                  <tr class="withdraw-tabs__content-tr">
+                    <td class="withdraw-tabs__content-td">21 Jan 2021</td>
+                    <td class="withdraw-tabs__content-td">33.00</td>
+                    <td class="withdraw-tabs__content-td">Card</td>
+                    <td class="withdraw-tabs__content-td">Not Finished</td>
+                  </tr>
+
+                  <tr class="withdraw-tabs__content-tr">
+                    <td class="withdraw-tabs__content-td">21 Jan 2021</td>
+                    <td class="withdraw-tabs__content-td">33.00</td>
+                    <td class="withdraw-tabs__content-td">Gift</td>
+                    <td class="withdraw-tabs__content-td">Success</td>
+                  </tr>
+
+                  <tr class="withdraw-tabs__content-tr">
+                    <td class="withdraw-tabs__content-td">21 Jan 2021</td>
+                    <td class="withdraw-tabs__content-td">33.00</td>
+                    <td class="withdraw-tabs__content-td">BitCoin</td>
+                    <td class="withdraw-tabs__content-td">Not Finished</td>
+                  </tr>
+
+                  <tr class="withdraw-tabs__content-tr">
+                    <td class="withdraw-tabs__content-td">21 Jan 2021</td>
+                    <td class="withdraw-tabs__content-td">33.00</td>
+                    <td class="withdraw-tabs__content-td">Card</td>
+                    <td class="withdraw-tabs__content-td">Not Finished</td>
+                  </tr>
+
+                  <tr class="withdraw-tabs__content-tr">
+                    <td class="withdraw-tabs__content-td">21 Jan 2021</td>
+                    <td class="withdraw-tabs__content-td">33.00</td>
+                    <td class="withdraw-tabs__content-td">Gift</td>
+                    <td class="withdraw-tabs__content-td">Success</td>
+                  </tr>
+
+                  <tr class="withdraw-tabs__content-tr">
+                    <td class="withdraw-tabs__content-td">21 Jan 2021</td>
+                    <td class="withdraw-tabs__content-td">33.00</td>
+                    <td class="withdraw-tabs__content-td">BitCoin</td>
+                    <td class="withdraw-tabs__content-td">Not Finished</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="withdraw-tabs__content-item" id="tab2">
+              <form class="withdraw-tabs__content-form" action="#">
+                <div class="withdraw-tabs__content-wrap withdraw-tabs__content-wrap--money">
+                  <div class="withdraw-tabs__content-box withdraw-tabs__content-box--money">
+                    <label class="withdraw-tabs__content-label">
+                      Amount (USD)
+                      <input class="withdraw-tabs__content-input" type="number" value="100">
+                    </label>
+                  </div>
+
+                  <div
+                    class="withdraw-tabs__content-box withdraw-tabs__content-box--wallet withdraw-tabs__content-box--bitcoin">
+                    <label class="withdraw-tabs__content-label">
+                      Bitcoin Wallet
+                      <input class="withdraw-tabs__content-input withdraw-tabs__content-input--bitcoin" type="text"
+                        placeholder="You bitcoin wallet adress">
+                    </label>
+                  </div>
+                </div>
+
+                <button class="withdraw-tabs__content-btn withdraw-tabs__content-btn--bitcoin"
+                  type="submit">SEND</button>
+              </form>
+
+              <table class="withdraw-tabs__content-table">
+                <tbody>
+                  <tr class="withdraw-tabs__content-tr">
+                    <td class="withdraw-tabs__content-td">Request date</td>
+                    <td class="withdraw-tabs__content-td">Amount</td>
+                    <td class="withdraw-tabs__content-td">Payment system</td>
+                    <td class="withdraw-tabs__content-td">Status</td>
+                  </tr>
+
+                  <tr class="withdraw-tabs__content-tr">
+                    <td class="withdraw-tabs__content-td">21 Jan 2021</td>
+                    <td class="withdraw-tabs__content-td">33.00</td>
+                    <td class="withdraw-tabs__content-td">BitCoin</td>
+                    <td class="withdraw-tabs__content-td">Success</td>
+                  </tr>
+
+                  <tr class="withdraw-tabs__content-tr">
+                    <td class="withdraw-tabs__content-td">21 Jan 2021</td>
+                    <td class="withdraw-tabs__content-td">33.00</td>
+                    <td class="withdraw-tabs__content-td">Card</td>
+                    <td class="withdraw-tabs__content-td">Not Finished</td>
+                  </tr>
+
+                  <tr class="withdraw-tabs__content-tr">
+                    <td class="withdraw-tabs__content-td">21 Jan 2021</td>
+                    <td class="withdraw-tabs__content-td">33.00</td>
+                    <td class="withdraw-tabs__content-td">Gift</td>
+                    <td class="withdraw-tabs__content-td">Success</td>
+                  </tr>
+
+                  <tr class="withdraw-tabs__content-tr">
+                    <td class="withdraw-tabs__content-td">21 Jan 2021</td>
+                    <td class="withdraw-tabs__content-td">33.00</td>
+                    <td class="withdraw-tabs__content-td">BitCoin</td>
+                    <td class="withdraw-tabs__content-td">Not Finished</td>
+                  </tr>
+
+                  <tr class="withdraw-tabs__content-tr">
+                    <td class="withdraw-tabs__content-td">21 Jan 2021</td>
+                    <td class="withdraw-tabs__content-td">33.00</td>
+                    <td class="withdraw-tabs__content-td">Card</td>
+                    <td class="withdraw-tabs__content-td">Not Finished</td>
+                  </tr>
+
+                  <tr class="withdraw-tabs__content-tr">
+                    <td class="withdraw-tabs__content-td">21 Jan 2021</td>
+                    <td class="withdraw-tabs__content-td">33.00</td>
+                    <td class="withdraw-tabs__content-td">Gift</td>
+                    <td class="withdraw-tabs__content-td">Success</td>
+                  </tr>
+
+                  <tr class="withdraw-tabs__content-tr">
+                    <td class="withdraw-tabs__content-td">21 Jan 2021</td>
+                    <td class="withdraw-tabs__content-td">33.00</td>
+                    <td class="withdraw-tabs__content-td">BitCoin</td>
+                    <td class="withdraw-tabs__content-td">Not Finished</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="withdraw-tabs__content-item" id="tab3">
+              <table class="withdraw-tabs__content-table">
+                <tbody>
+                  <tr class="withdraw-tabs__content-tr">
+                    <td class="withdraw-tabs__content-td">Request date</td>
+                    <td class="withdraw-tabs__content-td">Amount</td>
+                    <td class="withdraw-tabs__content-td">Payment system</td>
+                    <td class="withdraw-tabs__content-td">Status</td>
+                  </tr>
+
+                  <tr class="withdraw-tabs__content-tr">
+                    <td class="withdraw-tabs__content-td">21 Jan 2021</td>
+                    <td class="withdraw-tabs__content-td">33.00</td>
+                    <td class="withdraw-tabs__content-td">BitCoin</td>
+                    <td class="withdraw-tabs__content-td">Success</td>
+                  </tr>
+
+                  <tr class="withdraw-tabs__content-tr">
+                    <td class="withdraw-tabs__content-td">21 Jan 2021</td>
+                    <td class="withdraw-tabs__content-td">33.00</td>
+                    <td class="withdraw-tabs__content-td">Card</td>
+                    <td class="withdraw-tabs__content-td">Not Finished</td>
+                  </tr>
+
+                  <tr class="withdraw-tabs__content-tr">
+                    <td class="withdraw-tabs__content-td">21 Jan 2021</td>
+                    <td class="withdraw-tabs__content-td">33.00</td>
+                    <td class="withdraw-tabs__content-td">Gift</td>
+                    <td class="withdraw-tabs__content-td">Success</td>
+                  </tr>
+
+                  <tr class="withdraw-tabs__content-tr">
+                    <td class="withdraw-tabs__content-td">21 Jan 2021</td>
+                    <td class="withdraw-tabs__content-td">33.00</td>
+                    <td class="withdraw-tabs__content-td">BitCoin</td>
+                    <td class="withdraw-tabs__content-td">Not Finished</td>
+                  </tr>
+
+                  <tr class="withdraw-tabs__content-tr">
+                    <td class="withdraw-tabs__content-td">21 Jan 2021</td>
+                    <td class="withdraw-tabs__content-td">33.00</td>
+                    <td class="withdraw-tabs__content-td">Card</td>
+                    <td class="withdraw-tabs__content-td">Not Finished</td>
+                  </tr>
+
+                  <tr class="withdraw-tabs__content-tr">
+                    <td class="withdraw-tabs__content-td">21 Jan 2021</td>
+                    <td class="withdraw-tabs__content-td">33.00</td>
+                    <td class="withdraw-tabs__content-td">Gift</td>
+                    <td class="withdraw-tabs__content-td">Success</td>
+                  </tr>
+
+                  <tr class="withdraw-tabs__content-tr">
+                    <td class="withdraw-tabs__content-td">21 Jan 2021</td>
+                    <td class="withdraw-tabs__content-td">33.00</td>
+                    <td class="withdraw-tabs__content-td">BitCoin</td>
+                    <td class="withdraw-tabs__content-td">Not Finished</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <a class="arrow-up" href="#">
+            <img class="arrow-up__image" src="images/up.svg" alt="">
+          </a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a class="logo logo--footer" href="account.html">
+          <img class="logo__image" src="images/logo.png" alt="Логотип">
+        </a>
+
+        <ul class="footer__menu">
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="withdraws.html">Witdraws</a>
+          </li>
+
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="deposit.html">Deposits</a>
+          </li>
+
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="why.html">Why play with us?</a>
+          </li>
+
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="https://api.whatsapp.com/send?phone=380965889343&text=שלום"
+              target="_blank">Contact us</a>
+          </li>
+        </ul>
+
+        <p class="footer__copy">
+          © 2021 Mazal 24/7 all rights reserved
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.min.js"></script>
+  <script src="js/index.js" type="module"></script>
+  <script src="https://kit.fontawesome.com/2bc81603be.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
